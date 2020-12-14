@@ -2,16 +2,16 @@ import mysql.connector
 
 init = mysql.connector.connect(
   host="localhost",
-  user="root",
-  password="1234",
+  user="", # set username
+  password="", # set password
 )
 init_db = init.cursor(buffered=True)
 init_db.execute("CREATE DATABASE IF NOT EXISTS zizzle;")
 
 mydb = mysql.connector.connect(
   host="localhost",
-  user="root",
-  password="1234",
+  user="", # set username
+  password="", # set password
   database="zizzle"
 )
 
