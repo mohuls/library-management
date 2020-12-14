@@ -4,6 +4,7 @@ Zizzle Stark Library is a simple demo library management management system writt
 ## Core Dependencies
 The core dependencies for this application is Python3 and MySQL.
 `$ python3 -V`
+
 `$ mysql -v`
 
 ## Program Dependencies
@@ -11,7 +12,9 @@ Ensure python is added in path
 Ensure mysql is running and in path
 
 `$ pip install mysql-connector-python`
+
 `$ pip install requests`
+
 `$ pip install termcolor`
 
 
